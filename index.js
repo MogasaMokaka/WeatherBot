@@ -10,7 +10,7 @@ bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
   const username = msg.from.first_name;
 
-  bot.sendMessage(chatId, `Welcome, ${username}! How would you like to check the weather?`, {
+  bot.sendMessage(chatId, `Welcome, ${username}! How would you like to check the weather of your location?`, {
     reply_markup: {
       keyboard: [[{ text: "Send Location", request_location: true }]],
       resize_keyboard: true,
