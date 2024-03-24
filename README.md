@@ -1,2 +1,1 @@
-# WeatherBot
-new
+# WeatherBot. Yeehaw!!
